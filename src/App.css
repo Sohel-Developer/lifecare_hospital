@@ -1,3 +1,8 @@
 .bg-gradient {
   background: linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%);
 }
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
