@@ -15,6 +15,10 @@ const Services = () => {
     }, [])
     return (
         <div className='my-32'>
+            <div className='text-center'>
+                <h4 className=' font-bold text-xl mb-5 text-secondary'>OUR SERVICES</h4>
+                <h2 className='text-4xl mb-10 text-accent'>Services We Provide</h2>
+            </div>
             <div className='grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                 {
                     infoData.map((card) => <Card
